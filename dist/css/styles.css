@@ -11313,8 +11313,7 @@ body {
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
-  top: 50%;
-  left: 50%;
+  position: relative;
 }
 
 hr.divider {
