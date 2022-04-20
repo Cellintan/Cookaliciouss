@@ -11590,6 +11590,38 @@ header.juice h1, header.juice .h1 {
   }
 }
 
+header.friednoodling {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-friednoodling.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.friednoodling h1, header.friednoodling .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.friednoodling {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.friednoodling p {
+    font-size: 1.15rem;
+  }
+  header.friednoodling h1, header.friednoodling .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.friednoodling h1, header.friednoodling .h1 {
+    font-size: 3.5rem;
+  }
+} 
+
 header.dessert {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -11618,6 +11650,38 @@ header.dessert h1, header.dessert .h1 {
 }
 @media (min-width: 1200px) {
   header.dessert h1, header.dessert .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.brownies {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-brownies.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.brownies h1, header.brownies .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.brownies {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.brownies p {
+    font-size: 1.15rem;
+  }
+  header.brownies h1, header.brownies .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.brownies h1, header.brownies .h1 {
     font-size: 3.5rem;
   }
 }
