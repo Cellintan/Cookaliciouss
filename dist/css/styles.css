@@ -11654,6 +11654,198 @@ header.dessert h1, header.dessert .h1 {
   }
 }
 
+header.friedrice {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-friedrice.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.friedrice h1, header.friedrice .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.friedrice {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.friedrice p {
+    font-size: 1.15rem;
+  }
+  header.friedrice h1, header.friedrice .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.friedrice h1, header.friedrice .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.sj {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-sj.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.sj h1, header.sj .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.sj {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.sj p {
+    font-size: 1.15rem;
+  }
+  header.sj h1, header.sj .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.sj h1, header.sj .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.vm {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-vm.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.vm h1, header.vm .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.vm {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.vm p {
+    font-size: 1.15rem;
+  }
+  header.vm h1, header.vm .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.vm h1, header.vm .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.tj {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-tj.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.tj h1, header.tj .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.tj {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.tj p {
+    font-size: 1.15rem;
+  }
+  header.tj h1, header.tj .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.tj h1, header.tj .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.hr {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-hr.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.hr h1, header.hr .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.hr {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.hr p {
+    font-size: 1.15rem;
+  }
+  header.hr h1, header.hr .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.hr h1, header.hr .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.icecream {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-icecream.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.icecream h1, header.icecream .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.icecream {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.icecream p {
+    font-size: 1.15rem;
+  }
+  header.icecream h1, header.icecream .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.icecream h1, header.icecream .h1 {
+    font-size: 3.5rem;
+  }
+}
+
 header.brownies {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
@@ -11682,6 +11874,70 @@ header.brownies h1, header.brownies .h1 {
 }
 @media (min-width: 1200px) {
   header.brownies h1, header.brownies .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.garlic {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-garlic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.garlic h1, header.garlic .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.garlic {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.garlic p {
+    font-size: 1.15rem;
+  }
+  header.garlic h1, header.garlic .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.garlic h1, header.garlic .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.cm {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-cm.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.cm h1, header.cm .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.cm {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.cm p {
+    font-size: 1.15rem;
+  }
+  header.cm h1, header.cm .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.cm h1, header.cm .h1 {
     font-size: 3.5rem;
   }
 }
