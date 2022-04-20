@@ -11462,6 +11462,70 @@ header.drink h1, header.drink .h1 {
   }
 }
 
+header.friednoodle {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-friednoodle.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.friednoodle h1, header.friednoodle .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.friednoodle {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.friednoodle p {
+    font-size: 1.15rem;
+  }
+  header.friednoodle h1, header.friednoodle .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.friednoodle h1, header.friednoodle .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.heavymeal {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-heavymeal.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.heavymeal h1, header.heavymeal .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.heavymeal {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.heavymeal p {
+    font-size: 1.15rem;
+  }
+  header.heavymeal h1, header.heavymeal .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.heavymeal h1, header.heavymeal .h1 {
+    font-size: 3.5rem;
+  }
+}
+
 header.dessert {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
