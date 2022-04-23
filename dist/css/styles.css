@@ -11,10 +11,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
+  --bs-blue: #6fb3f2;
+  --bs-pink:  #f2766f;
+  --bs-cream: #faecb6;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #f4623a;
   --bs-yellow: #ffc107;
@@ -7845,6 +7846,18 @@ textarea.form-control-lg {
 .bg-purple {
   --bs-bg-opacity: 1;
   background-color: var(--bs-purple) !important;
+}
+.bg-pink {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-pink) !important;
+}
+.bg-cream {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-cream) !important;
+}
+.bg-blue {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-blue) !important;
 }
 .bg-brown{
   --bs-bg-opacity: 1;
