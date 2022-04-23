@@ -11,18 +11,19 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
+  --bs-blue: #6fb3f2;
+  --bs-pink:  #f2766f;
+  --bs-cream: #faecb6;
   --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
+  --bs-purple: #cb6ff2;
   --bs-red: #dc3545;
-  --bs-orange: #f4623a;
+  --bs-orange: #f2b76f;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
   --bs-white: #fff;
-  --bs-brown: #deb887;
+  --bs-brown: #804f24;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
@@ -7846,6 +7847,26 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: var(--bs-purple) !important;
 }
+.bg-orange {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-orange) !important;
+}
+.bg-pink {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-pink) !important;
+}
+.bg-cream {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-cream) !important;
+}
+.bg-blue {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-blue) !important;
+}
+.bg-brown{
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-brown) !important;
+}
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
@@ -11778,6 +11799,38 @@ header.tj h1, header.tj .h1 {
 }
 @media (min-width: 1200px) {
   header.tj h1, header.tj .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+header.aboutus {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-aboutus.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.aboutus h1, header.aboutus .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.aboutus {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.aboutus p {
+    font-size: 1.15rem;
+  }
+  header.aboutus h1, header.aboutus .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.aboutus h1, header.aboutus .h1 {
     font-size: 3.5rem;
   }
 }
