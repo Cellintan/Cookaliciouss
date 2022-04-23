@@ -17,7 +17,7 @@
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-red: #dc3545;
-  --bs-orange: #f4623a;
+  --bs-orange: #f2b76f;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -7846,6 +7846,10 @@ textarea.form-control-lg {
 .bg-purple {
   --bs-bg-opacity: 1;
   background-color: var(--bs-purple) !important;
+}
+.bg-orange {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-orange) !important;
 }
 .bg-pink {
   --bs-bg-opacity: 1;
